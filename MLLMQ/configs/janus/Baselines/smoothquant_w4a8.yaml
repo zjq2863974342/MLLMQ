@@ -1,0 +1,18 @@
+# Janus-Pro-7B SmoothQuant W4A8 baseline
+# Equivalent to: python main_quant.py --method smoothquant --w_bit 4 --a_bit 8 --calib_data pileval --n_samples 128 --run_process --pack_quant
+
+model: janus
+model_path: Janus/models/Janus-Pro-7B
+
+calib_data: pileval
+n_samples: 128
+
+method: smoothquant
+run_process: true
+w_bit: 4
+a_bit: 8
+w_group: 128
+
+pack_quant: true
+scale_path: scale_cache/smoothquant/janus_w4a8.pt
+output_path: ../output/janus-pro-7b/models/Janus-Pro-7B-smoothquant-w4a8

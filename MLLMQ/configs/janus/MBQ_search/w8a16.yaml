@@ -1,0 +1,21 @@
+# Janus-Pro-7B W8A16 weight-only quantization
+# Equivalent to: python main_quant.py --w_bit 8 --calib_data pileval --n_samples 128 --run_process --pack_quant
+
+model: janus
+model_path: Janus/models/Janus-Pro-7B
+
+calib_data: pileval
+n_samples: 128
+
+method: mbq
+run_process: true
+w_bit: 8
+a_bit: 16
+w_group: 128
+distort: false
+reweight: false
+loss_mode: mae
+
+pack_quant: true
+scale_path: scale_cache/mbq/janus_w8a16.pt
+output_path: ../output/janus-pro-7b/models/Janus-Pro-7B-mbq-w8a16

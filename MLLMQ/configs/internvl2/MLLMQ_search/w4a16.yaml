@@ -1,0 +1,20 @@
+# InternVL2-8B MLLMQ W4A16 (COCO multimodal calib + per-channel gradient reweighting)
+model_type: internvl2
+model_path: /path/to/InternVL2-8B
+
+calib_data: coco
+data_path: /path/to/coco/annotations/captions_train2014.json
+image_folder: /path/to/coco/train2014
+n_samples: 128
+
+method: mllmq
+run_process: true
+w_bit: 4
+a_bit: 16
+w_group: 128
+distort: false
+loss_mode: mae
+
+pack_quant: true
+scale_path: scale_cache/mllmq/internvl2_w4a16.pt
+output_path: ../output/mllmq_internvl2_w4a16

@@ -1,0 +1,15 @@
+{
+  "tag": "rtn",
+  "device": "cuda:0",
+  "rows": [
+    {
+      "category": "color",
+      "scorer": "blip",
+      "n_images": 300,
+      "rc": 0,
+      "score": 0.5136890000000001,
+      "source": "output/janus-pro-7b/t2i_compbench_current_scores/w3a16/rtn/work/color/annotation_blip/blip_vqa_score.txt"
+    }
+  ],
+  "skipped": []
+}

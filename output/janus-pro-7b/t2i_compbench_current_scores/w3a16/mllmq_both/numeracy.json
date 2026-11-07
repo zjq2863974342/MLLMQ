@@ -1,0 +1,15 @@
+{
+  "tag": "mllmq_both",
+  "device": "cuda:0",
+  "rows": [
+    {
+      "category": "numeracy",
+      "scorer": "unidetnum",
+      "n_images": 300,
+      "rc": 0,
+      "score": 0.3641666666666667,
+      "source": "output/janus-pro-7b/t2i_compbench_current_scores/w3a16/mllmq_both/work/numeracy/annotation_num/vqa_result.json"
+    }
+  ],
+  "skipped": []
+}

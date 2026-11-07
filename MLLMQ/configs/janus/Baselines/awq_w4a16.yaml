@@ -1,0 +1,18 @@
+# Janus-Pro-7B AWQ W4A16 baseline
+# Equivalent to: python main_quant.py --method awq --w_bit 4 --calib_data pileval --n_samples 128 --run_process --pack_quant
+
+model: janus
+model_path: Janus/models/Janus-Pro-7B
+
+calib_data: pileval
+n_samples: 128
+
+method: awq
+run_process: true
+w_bit: 4
+a_bit: 16
+w_group: 128
+
+pack_quant: true
+scale_path: scale_cache/awq/janus_w4a16.pt
+output_path: ../output/janus-pro-7b/models/Janus-Pro-7B-awq-w4a16

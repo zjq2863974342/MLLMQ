@@ -1,0 +1,18 @@
+# InternVL2-8B RTN W4A16 baseline (lower bound)
+model_type: internvl2
+model_path: /path/to/InternVL2-8B
+
+calib_data: coco
+data_path: /path/to/coco/annotations/captions_train2014.json
+image_folder: /path/to/coco/train2014
+n_samples: 128
+
+method: rtn
+run_process: true
+w_bit: 4
+a_bit: 16
+w_group: 128
+
+pack_quant: true
+scale_path: scale_cache/rtn/internvl2_w4a16.pt
+output_path: /path/to/output/InternVL2-8B-rtn-w4a16

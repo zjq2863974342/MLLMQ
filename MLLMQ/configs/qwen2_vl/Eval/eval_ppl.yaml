@@ -1,0 +1,19 @@
+# Qwen2-VL-7B full VL evaluation config (PPL on COCO val)
+# Used with eval_vl_understanding.py
+
+model_type: qwen2_vl
+n_samples: 100
+
+# fp16 model
+orig_model_path: /path/to/Qwen2-VL-7B-Instruct
+
+# quantized models to compare (comma-separated or listed individually)
+quant_model_path: /path/to/output/Qwen2-VL-7B-mbq-w4a16
+scale_path: scale_cache/mbq/qwen2_vl_w4a16.pt
+
+# eval data
+data_path: /path/to/coco/annotations/captions_val2014.json
+image_folder: /path/to/coco/val2014
+
+# output
+output_dir: /path/to/output/Qwen2-VL-7B-mbq-w4a16/eval

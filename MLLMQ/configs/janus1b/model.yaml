@@ -1,0 +1,41 @@
+# Janus-Pro-1B wrapper configuration.
+#
+# Architecture is the same MultiModalityCausalLM as Janus-Pro-7B, so the
+# existing qmllm.models.janus.JanusModel wrapper is reused unchanged.
+# This file records the 1B-specific dimensions and the paths that must NOT
+# collide with the 7B scale cache / eval outputs.
+
+model: janus
+model_path: /nas3/kangjia/mllmq/checkpoints/Janus/models/Janus-Pro-1B
+wrapper: qmllm.models.janus.JanusModel
+architecture: MultiModalityCausalLM
+dtype: bfloat16
+
+language:
+  num_hidden_layers: 24
+  hidden_size: 2048
+  intermediate_size: 5632
+  num_attention_heads: 16
+  num_key_value_heads: 16
+  vocab_size: 102400
+  max_position_embeddings: 16384
+
+vision:
+  encoder: siglip_large_patch16_384
+  image_size: 384
+  select_layer: -1
+
+generation:
+  image_size: 384
+  image_token_num: 576
+  vq_vocab_size: 16384
+
+paths:
+  scale_cache_root: /nas3/kangjia/mllmq/MLLMQ/scale_cache/janus1b
+  eval_output_root: /nas3/kangjia/mllmq/output/janus-pro-1b
+
+notes:
+  - "main_quant.py 默认 --scale_path 是 scale_cache/<method>/janus_w<bit>.pt，会和 7B 冲突；1B 必须显式传 --scale_path scale_cache/janus1b/<method>_w<bit>_a<abit>.pt。"
+  - "get_blocks 对 LlamaForCausalLM 返回 model.model.layers，1B 为 24 层，现有 Janus wrapper 不需要改。"
+  - "混合精度的 k 要按 24 层重新折算，不能直接沿用 30 层的 k=12。"
+  - "eval_benchmarks.py 的 --output_base 必须改成 output/janus-pro-1b/eval，避免和 7B 混在一起。"

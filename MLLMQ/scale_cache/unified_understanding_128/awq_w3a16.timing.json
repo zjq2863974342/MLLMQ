@@ -1,0 +1,16 @@
+{
+  "method": "awq",
+  "model": "Janus-Pro-7B",
+  "w_bit": 3,
+  "a_bit": 16,
+  "n_samples": 128,
+  "times": {
+    "model_load_s": 5.39,
+    "data_prep_s": 34.43,
+    "grad_collection_s": 0.0,
+    "scale_search_s": 494.38,
+    "scale_apply_s": 13.22,
+    "total_s": 564.67
+  },
+  "timestamp": "2026-11-03T16:25:22"
+}

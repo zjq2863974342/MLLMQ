@@ -1,0 +1,15 @@
+{
+  "tag": "mllmq_gen_only",
+  "device": "cuda:0",
+  "rows": [
+    {
+      "category": "spatial",
+      "scorer": "unidet2d",
+      "n_images": 300,
+      "rc": 0,
+      "score": 0.15833847247235633,
+      "source": "output/janus-pro-7b/t2i_compbench_current_scores/w3a16/mllmq_gen_only/work/spatial/labels/annotation_obj_detection_2d/avg_score.txt"
+    }
+  ],
+  "skipped": []
+}

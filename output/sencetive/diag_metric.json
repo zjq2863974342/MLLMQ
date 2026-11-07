@@ -1,0 +1,110 @@
+{
+  "tf": {
+    "15": {
+      "perchannel_mean": {
+        "vision": 1.70014537559382e-06,
+        "caption_und": 4.426777195476461e-05,
+        "caption_gen": null,
+        "t2i": 4.065174334755284e-05,
+        "t2i_over_caption_und": 0.9183146463547602,
+        "vision_over_caption_und": 0.03840593959260312
+      },
+      "tok_mean": {
+        "vision": 0.00013716286048293114,
+        "caption_und": 0.003564693557564169,
+        "caption_gen": null,
+        "t2i": 0.0032676490081939846,
+        "t2i_over_caption_und": 0.916670382860859,
+        "vision_over_caption_und": 0.03847816320476575
+      },
+      "tok_max": {
+        "vision": 0.00912597673595883,
+        "caption_und": 0.02177163807209581,
+        "caption_gen": null,
+        "t2i": 0.011121149058453739,
+        "t2i_over_caption_und": 0.5108090177517441,
+        "vision_over_caption_und": 0.4191681262447301
+      }
+    },
+    "29": {
+      "perchannel_mean": {
+        "vision": 0.0,
+        "caption_und": 1.4043272358321701e-05,
+        "caption_gen": null,
+        "t2i": 1.806643354029802e-05,
+        "t2i_over_caption_und": 1.2864831699708716,
+        "vision_over_caption_und": null
+      },
+      "tok_mean": {
+        "vision": 0.0,
+        "caption_und": 0.0011271006369497627,
+        "caption_gen": null,
+        "t2i": 0.0014491216279566288,
+        "t2i_over_caption_und": 1.2857073986563803,
+        "vision_over_caption_und": null
+      },
+      "tok_max": {
+        "vision": 0.0,
+        "caption_und": 0.003071433602599427,
+        "caption_gen": null,
+        "t2i": 0.003799581085331738,
+        "t2i_over_caption_und": 1.2370708851124317,
+        "vision_over_caption_und": null
+      }
+    }
+  },
+  "argmax": {
+    "15": {
+      "perchannel_mean": {
+        "vision": null,
+        "caption_und": null,
+        "caption_gen": null,
+        "t2i": 7.783815772199887e-05,
+        "t2i_over_caption_und": null,
+        "vision_over_caption_und": null
+      },
+      "tok_mean": {
+        "vision": null,
+        "caption_und": null,
+        "caption_gen": null,
+        "t2i": 0.006278916087467223,
+        "t2i_over_caption_und": null,
+        "vision_over_caption_und": null
+      },
+      "tok_max": {
+        "vision": null,
+        "caption_und": null,
+        "caption_gen": null,
+        "t2i": 0.07708959560841322,
+        "t2i_over_caption_und": null,
+        "vision_over_caption_und": null
+      }
+    },
+    "29": {
+      "perchannel_mean": {
+        "vision": null,
+        "caption_und": null,
+        "caption_gen": null,
+        "t2i": 1.0191958836003323e-05,
+        "t2i_over_caption_und": null,
+        "vision_over_caption_und": null
+      },
+      "tok_mean": {
+        "vision": null,
+        "caption_und": null,
+        "caption_gen": null,
+        "t2i": 0.0008147428743541241,
+        "t2i_over_caption_und": null,
+        "vision_over_caption_und": null
+      },
+      "tok_max": {
+        "vision": null,
+        "caption_und": null,
+        "caption_gen": null,
+        "t2i": 0.04260454070754349,
+        "t2i_over_caption_und": null,
+        "vision_over_caption_und": null
+      }
+    }
+  }
+}

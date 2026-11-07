@@ -1,0 +1,12 @@
+# InternVL2-8B VL evaluation config (PPL on COCO val)
+model_type: internvl2
+n_samples: 100
+
+orig_model_path: /path/to/InternVL2-8B
+quant_model_path: /path/to/output/InternVL2-8B-mllmq-w4a16
+scale_path: scale_cache/mllmq/internvl2_w4a16.pt
+
+data_path: /path/to/coco/annotations/captions_val2014.json
+image_folder: /path/to/coco/val2014
+
+output_dir: /path/to/output/InternVL2-8B-mllmq-w4a16/eval

@@ -1,0 +1,15 @@
+{
+  "tag": "rtn",
+  "device": "cuda:0",
+  "rows": [
+    {
+      "category": "3d_spatial",
+      "scorer": "unidet3d",
+      "n_images": 300,
+      "rc": 0,
+      "score": 0.21487491607546885,
+      "source": "output/janus-pro-7b/t2i_compbench_current_scores/w3a16/rtn/work/3d_spatial/labels/annotation_obj_detection_3d/avg_result.txt"
+    }
+  ],
+  "skipped": []
+}

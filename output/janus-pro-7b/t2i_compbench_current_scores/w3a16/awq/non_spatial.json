@@ -1,0 +1,15 @@
+{
+  "tag": "awq",
+  "device": "cuda:0",
+  "rows": [
+    {
+      "category": "non_spatial",
+      "scorer": "clip",
+      "n_images": 300,
+      "rc": 1,
+      "score": null,
+      "source": "output/janus-pro-7b/t2i_compbench_current_scores/w3a16/awq/work/non_spatial/non_spatial/annotation_clip/score_avg.txt"
+    }
+  ],
+  "skipped": []
+}

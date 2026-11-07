@@ -1,0 +1,24 @@
+# Janus-Pro-7B MBQ W4A16 with COCO calibration (for fair comparison with MLLMQ)
+# Equivalent to: python main_quant.py --method mbq --w_bit 4 --calib_data coco --run_process --pack_quant
+#
+# Uses COCO (not pileval) to match MLLMQ's calibration data for controlled comparison.
+
+model: janus
+model_path: Janus/models/Janus-Pro-7B
+
+calib_data: coco
+data_path: ../data/coco/annotations/captions_train2017.json
+image_folder: ../data/coco/train2017
+n_samples: 128
+
+method: mbq
+run_process: true
+w_bit: 4
+a_bit: 16
+w_group: 128
+distort: false
+loss_mode: mae
+
+pack_quant: true
+scale_path: scale_cache/mbq/janus_w4a16_coco.pt
+output_path: ../output/janus-pro-7b/models/Janus-Pro-7B-mbq-w4a16-coco

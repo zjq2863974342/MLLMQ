@@ -1,0 +1,29 @@
+# Janus-Pro-7B MLLMQ W4A16 (COCO multimodal calib + per-channel gradient reweighting)
+# Equivalent to: python main_quant.py --method mllmq --w_bit 4 --calib_data coco --run_process --pack_quant
+#
+# Key difference from MBQ: MLLMQ uses per-channel (not per-layer) gradient-based
+# modality reweighting during scale search.
+
+# model args
+model: janus
+model_path: Janus/models/Janus-Pro-7B
+
+# calibration data args (multimodal COCO)
+calib_data: coco
+data_path: ../data/coco/annotations/captions_train2017.json
+image_folder: ../data/coco/train2017
+n_samples: 128
+
+# quantization config
+method: mllmq
+run_process: true
+w_bit: 4
+a_bit: 16
+w_group: 128
+distort: false
+loss_mode: mae
+
+# output args
+pack_quant: true
+scale_path: scale_cache/mllmq/janus_w4a16_rw.pt
+output_path: ../output/janus-pro-7b/models/Janus-Pro-7B-mllmq-w4a16

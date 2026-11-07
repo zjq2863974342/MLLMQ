@@ -1,0 +1,3074 @@
+[
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "an oblong cucumber and a teardrop pepper"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000268583.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Several glazed donuts are lined up on a tray."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000237003.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A meat filled pizza sitting on a pan on a table."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000471895.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "The bathroom has a shower area, toilet and sink."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a car on the right of a bee"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000345040.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Two black and yellow circular clocks affixed to an office building."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a blue bowl and a red train"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000414529.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A man with a racket goes to hit a tennis ball."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000339603.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "a shirtless male surfer is carrying a white board"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000335383.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "two people playing with a dog on a leash"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000024547.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A BIG  BOX OF TOMATO AND BASIL PIZZA."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000314259.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A skiier slides down a snowy mountain on his board."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000322894.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A couple of birds sitting on top of a rocky beach cliff."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a circular vase and a triangular plant stand"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000330435.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "an image of a cat next to the feet of a person"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a woman next to a computer"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000328111.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Cars drive down a multi-lane road and pass businesses."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The smooth silk gown flowed over the delicate skin and the rough floor."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The sharp, staccato beats of the drum signaled the start of the music, a pulsating rhythm of sound and movement."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000366089.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "a really sad picture of some men with guns sitting next to a dead zebra."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000456608.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A woman and two men are having a conversation."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000354202.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A giraffe looking over the corral fence in his zoo habitat. "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The bold, geometric patterns of the stained glass window cast a kaleidoscope of colors and light into the dimly lit room, a dazzling display of art and design."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000514519.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "An abandoned train with lots of graffiti painted on it."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000167863.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A piece of meat covered in marinara sauce, cheese and herbs."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000342942.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A dog that is sitting in a window."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000198057.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A bunch of birds that are standing in the grass."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000568238.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Two dogs are tugging on the same Frisbee."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000082457.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A couple of small beds and mirror in a room."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000272743.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A man walks past a weathered structure and parking meters."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a diamond engagement ring and a round wristwatch"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a diamond earring and a round locket"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a cubic dice and a spherical game board"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000211945.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A dog riding on the back of a motorcycle down a street."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000194420.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A dog stares intently off to the left in front of a glaring TV."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000430260.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A white fire hydrant near the address 700 Jones Street."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000303508.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "a table full of vegetables and fruits stacked on top of each other"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a yellow cat and a brown sheep"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000037244.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A woman getting food out of an oven while another woman stands by."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a spherical soccer ball and a diamond soccer goal"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000388075.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A woman wearing a red shirt blow drying her hair."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000296700.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "a kneeling woman taking a photo of her black dog "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000167992.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A man bending over on a tennis court."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000525208.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A freeway is busy in the late evening."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000081994.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Flowers in a vase full of water next to a window."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a sheep near a painting"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000527468.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A table topped with lots of different types of cakes."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a car on the top of a turtle"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000217546.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "White people looking ridiculous playing wii and drinking beer."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a boy near a backpack"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The soft, fluffy clouds drifted lazily across the blue sky, a canvas of endless possibilities and imagination."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a red hat and a white scarf"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The sparkling diamond shone on the smooth velvet and the rough sandpaper."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000288106.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A cat sitting by a microwave under a cabinet."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a couch on the bottom of a horse"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a gold book and a red clock"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000177950.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A woman standing on the sidewalk, looking at her phone."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000047405.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A vintage photograph of a war plane flying"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a bird on the bottom of a train"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000348179.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Some people in white overalls working with some metal bars."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a pentagonal stop sign and a spherical traffic light"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a round peach and a rectangular bar of soap"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a woman on the left of a balloon"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000100896.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Artistic black and white photo of man on a motorcycle."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000521663.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Major League Baseball player taking a very fast pitch from the pitcher"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000575174.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A young girl standing on top of a tennis court holding a racquet."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a blue cylinder and a red cube"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a big elephant and a small ladybug"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000534959.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A baby is laying on a bed with the cat next to and a man is looking over in the mirror."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000029934.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "a child on a tennis court getting ready to swing a tennis racket"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000373697.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A table that has people sitting around it with food in front of them."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000472904.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "I THINK THIS IS A RECEPTION HALL AND ITS FULLY DECORATED"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "an oval vase and a rectangular table"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a bee on the top of a backpack"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a frog on the right of a girl"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "A small brown kitchen with white wood floor."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The smooth, glassy surface of the ocean reflected the endless expanse of the sky, a natural wonder of reflection and beauty."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The bright yellow star was hanging from the ceiling next to the glittering crescent and the painted diamond."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The sharp black knife lay next to the smooth wooden cutting board."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The soft blue blanket contrasted with the rough wooden floor."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The shiny car raced on the smooth highway and the bumpy back road."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000027075.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A black and white cat walks near someone's legs."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The soft pink petals of the flower contrasted with the rough grey sidewalk."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a white refrigerator and a silver microwave"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "an oblong squash and a teardrop mango"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a pentagonal yield sign and a pyramidal vase"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a woman on the left of a bee"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a triangular slice of lemon and a cylindrical lemon squeezer"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000327770.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Two giraffes are standing together in a field."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000243851.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Professional baseball player winding up to pitch the ball. "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a key on the top of a chicken"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000198604.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A person on a skateboard going up a small ramp."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The shiny silver teapot sat on the rough wooden table."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000547742.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A living room setting with furniture and lamp"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000104541.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Several pizzas are lined up on a table."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000308125.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "a person wearing shirt and tie and looking up."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000225456.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "The black cat is turning away from the large computer screen."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The soft, billowy clouds floated above the mountaintops, a peaceful and serene view from the summit."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000119876.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A man talking on the phone while he walks down the street. "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000547475.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Some chefs working together in a big kitchen."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000271495.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "The man is cutting bell peppers near a large pot on the stove."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The sharp black cat clawed at the soft red blanket."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000397999.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A man wearing a wet suit riding a wave on a surfboard."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000105504.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A boy in a yellow shirt is riding the edge of a half-pipe on his skateboard."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000377352.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Two motorcycle riders talking on the side of the road. "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The smooth brown chocolate melted on the warm white marshmallow."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000166903.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A stop sign is shown behind two trees."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000473254.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Two slices of square pizza on a plate with a fork."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a pentagonal jewelry box and a pyramidal gemstone"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The bumpy sphere was nestled between the spiky star and the fuzzy heart."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000216228.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A woman with glasses and a scarf skateboards along Hollywood's Walk of Fame."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a triangular slice of pie and a rectangular pie dish"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The black chair was next to the silver lamp."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The towering, jagged peaks of the mountain range stretched towards the sky, a breathtaking display of natural grandeur."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000068625.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Four giraffes standing in the grass in their enclosure."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000421623.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A mom and a baby who is holding a teddy bear"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000232952.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "a small toy truck with a cat peering through a window"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a plate on the top of a cat"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a green apple and a blue boat"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000037748.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Two sheep are lying on the ground under a tree. "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a long snake and a short lizard"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a pig on the right of a microwave"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000444871.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A boy and a group of sheep walking away in dirt field with trucks in background."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a triangular slice of watermelon and a spherical melon baller"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a square book and a cylindrical pencil"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a brown frog and a green lizard"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a boy on side of a vase"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The square ottoman with its cylindrical legs and spherical cushion provided a cozy place to rest in the oval den."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "an oval coffee table and a rectangular rug"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a blue cake and a red suitcase"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The soft fur coat draped over the hard armor and the sharp claws."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000561745.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A group of baseball players standing on top of a field."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a cubic tissue box and a cylindrical roll of paper towels"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The fluffy, white clouds resembled cotton candy in the sky, a whimsical and playful image in the midst of the vast expanse."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000457986.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A living room filled with furniture and a flat screen TV."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000410724.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "a statue of a cat sits next to some scissors "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000270844.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A man with a black tie smiling and holding a white box."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000177927.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A living room with couches, a table, and a fireplace."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The metallic sphere was nestled between the textured cube and the wooden rectangle."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a couch on the bottom of a cat"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The smooth white sand contrasted with the rough grey rocks."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000098350.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Woman eating a really large sandwich at a dinner table. "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a woman on the top of a butterfly"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000062483.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A man and a woman dress up in costumes."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000222074.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A man in competition gear on a red snowboard going down a hill."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a tall palm tree and a short fern"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a mouse on the left of a wallet"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000493841.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Big green monument with a clock on top."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000524724.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A toiler and some buckets in a small room."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a blue bench and a green bowl"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000253871.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A tall clock tower sitting on at the end of a street."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a dog on the right of a bicycle"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000135763.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "a red fire hydrant with two nozzles on it "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a car on the right of a man"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000159424.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "This bedroom features a bed and chest of drawers."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The black mouse was next to the green mouse pad."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a green banana and a brown giraffe"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a table on the left of a mouse"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a black wallet and a brown keychain"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "an oval bathtub and a square bath mat"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a black jacket and a brown hat"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "an oval mirror and a rectangular vanity"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The shiny trophy gleamed on the polished wood and the worn carpet."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000314109.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A passenger bus that is driving down the street."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a refrigerator on the bottom of a turtle"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000101341.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Some very pretty giraffes standing by a big fence."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000536265.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Group of motorcycle riders being led by a police car. "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a diamond necklace and a round watch"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000492347.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A train traveling down train tracks next to a forest."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000091744.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A flock of sheep sitting in the middle of a field."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000505046.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Animals grazing in grass in front of an industrial landscape."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000277431.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A red train on the track in between two buildings. "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000519880.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A skateboarder grinding down a red and black ramp."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a giraffe on the top of a airplane"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The spotted fawn bounded through the green meadow and the rocky ravine."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000065051.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A person is holdiing a kite in a field."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000372514.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Donuts are going through the mechanical glaze machine."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000474656.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A couple of neon signs sitting above a bar."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a round cinnamon roll and a round toaster pastry"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a red book and a gold clock"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000296614.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A baseball player takes a high grip on the bat as a catcher scrambles for the ball."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000430677.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Two bottles of champagne sit in an empty fridge. "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a pentagonal badge and a pyramidal sculpture"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a chicken on the top of a plate"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a green tree and a brown grass"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000029091.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A polar bear laying down on rocks by some water."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The smooth pebble skipped on the calm water and the choppy waves."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a phone on the bottom of a mouse"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000099913.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Three giraffes tower above trees and brush as they feed."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The tall ladder and the short stool were both necessary for reaching high places."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a cubic block and a pyramidal puzzle box"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000342490.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A gray airplane with metal petals on the wings takes off from an airport."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a red bird and a brown cow"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "an oblong carrot and a teardrop pear"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a blue cup and a red suitcase"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a spherical planet and a teardrop satellite"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a cubic book and a cylindrical can of soup"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The flickering fireplace warmed the cold room and the chilly night."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a blue snow and a white sled"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a brown bird and a red giraffe"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a white dove and a black crow"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The soft, billowing curtains fluttered in the gentle breeze, adding a touch of elegance to the room."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The sleek car zipped past the tall tree and the winding river."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The smooth silk dress flowed on the curvy body and the straight floor."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The rustling leaves danced in the cool breeze and the warm sunlight."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000174735.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Bathroom with a toilet, glass sink and a mirror. "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000564883.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A close up view of a small broccoli plant."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000511307.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Dog curled up in the bed under covers"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000159100.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Young skier posing for photo in alpine ski area."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "an oval sink and a rectangular medicine cabinet"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a round cupcake and a square wrapper"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a balloon on the top of a giraffe"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000333371.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A large airplane flying through a cloudy sky."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000226246.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Group of double decker buses on road near crane."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a clock on the left of a giraffe"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000011990.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Cat sitting inside kitchen cabinet, near the dishes."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "an oblong eggplant and a teardrop peach"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000337030.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "There is a single bed in an old room with a window. "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The smooth, creamy texture of the ice cream melted in the mouth, a delicious indulgence."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000558318.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Car's driving on a city street lined with houses."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000397675.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A herd of zebra standing on top of a lush green field."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000059718.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A large concrete skyscraper on a sunny cloudless day.."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000500646.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "a cat in a blue hat is laying down"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000050536.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A meal with two plates full of broccoli and other items."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000445313.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Three men on a field playing a sports game."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000016098.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "a closeup of a person's hands as it plays with a Wii controller in front of booklet with Mario and Luigi characters"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The crescent necklace with its oblong pendant and circular clasp adorned the teardrop neckline."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000213534.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "The airplane is on the runway t the airport."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000291889.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A man and a woman beside bicycles with orange train cars behind them."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a brown tree and a green bush"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a woman on the right of a train"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000149927.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A couple of trains move side by side down the tracks."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a long ladder and a short stool"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a tall tree and a short grass"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000370124.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A crowd of people standing around an old fashioned train engine."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000382670.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Two cows are standing on the end of a boat"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a wallet on the right of a cat"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000513505.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "Two blue suitcases right next to each other\n"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000353658.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "its raining so all the people are carrying umbrellas"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000384335.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A cell phone sits beside a small crocheted change purse."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a teardrop pendant and a spherical necklace chain"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a woman near a airplane"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000337890.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A small pizza with burnt edges and fresh toppings."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000006957.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A player swings at the ball during a baseball game."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000429184.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A goat with red painted horns on its head"
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000029715.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A woman standing next to a man while wearing a short dress."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000162841.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A simple yellow vase holds two red and white tulips. "
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000465824.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A girl with a bun is sitting on a scooter type motorcycle."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000266885.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A white table topped with lots of plates and food."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "000000338323.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A large metal clock and some bright lights."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a circular chandelier and a triangular wall art"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "The fragrant flowers bloomed on the sturdy stem and the thorny bush."
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a fish near a television"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a blue elephant and a brown vase"
+      }
+    ],
+    "task_type": "generation"
+  },
+  {
+    "image": "000000316365.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease describe this image in detail."
+      },
+      {
+        "from": "gpt",
+        "value": "A person working at an airport, outside of an airplane."
+      }
+    ],
+    "task_type": "understanding"
+  },
+  {
+    "image": "",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "a cubic book and a cylindrical water bottle"
+      }
+    ],
+    "task_type": "generation"
+  }
+]

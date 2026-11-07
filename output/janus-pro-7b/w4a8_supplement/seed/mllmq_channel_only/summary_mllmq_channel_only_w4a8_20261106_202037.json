@@ -1,0 +1,7 @@
+{
+  "seedbench_2_local_chunk2": {
+    "metric": "seed_all,none",
+    "score": 0.4707692307692308,
+    "file": "/nas3/kangjia/mllmq/output/janus-pro-7b/w4a8_supplement/seed/mllmq_channel_only/seedbench_2_local_chunk2/mllmq_channel_only_w4a8/20261106_202037_mllmq_channel_only_w4a8_seedbench_2_local_chunk2_results.json"
+  }
+}

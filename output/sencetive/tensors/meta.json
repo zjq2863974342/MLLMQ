@@ -1,0 +1,23 @@
+{
+  "config": {
+    "model_path": "/nas3/kangjia/mllmq/checkpoints/Janus/models/Janus-Pro-7B",
+    "data_path": "/nas3/kangjia/mllmq/data/coco/janus_mixed_calib_256.json",
+    "image_folder": "/nas3/kangjia/mllmq/data/coco/train2017",
+    "out_dir": "/nas3/kangjia/mllmq/output/sencetive",
+    "n_per_task": 64,
+    "device": "cuda:0",
+    "seed": 42
+  },
+  "samples": {
+    "vision": 64,
+    "caption": 64,
+    "t2i": 64
+  },
+  "modalities": [
+    "vision",
+    "caption",
+    "t2i"
+  ],
+  "n_blocks": 30,
+  "hidden": 4096
+}

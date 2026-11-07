@@ -1,0 +1,14 @@
+# Janus-Pro-7B IQA evaluation config
+# Equivalent to: python demo.py --model_type both --task iqa --n_samples 50
+
+model_type: both
+task: iqa
+n_samples: 50
+max_new_tokens: 128
+
+orig_model_path: Janus/models/Janus-Pro-7B
+mbq_model_path: ../output/janus-pro-7b/models/Janus-Pro-7B-mbq-w4a16
+
+output_dir: ../output/janus-pro-7b/eval/iqa_eval/
+coco_annotations: ../data/coco/annotations/captions_val2017.json
+coco_image_dir: ../data/coco/train2017/

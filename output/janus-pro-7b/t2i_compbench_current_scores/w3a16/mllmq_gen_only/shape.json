@@ -1,0 +1,15 @@
+{
+  "tag": "mllmq_gen_only",
+  "device": "cuda:0",
+  "rows": [
+    {
+      "category": "shape",
+      "scorer": "blip",
+      "n_images": 300,
+      "rc": 0,
+      "score": 0.3384209999999998,
+      "source": "output/janus-pro-7b/t2i_compbench_current_scores/w3a16/mllmq_gen_only/work/shape/annotation_blip/blip_vqa_score.txt"
+    }
+  ],
+  "skipped": []
+}

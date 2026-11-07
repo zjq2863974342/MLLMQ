@@ -1,0 +1,22 @@
+# GenEval Overall — 汇总于 2026-10-12 13:55:07 by geneval_watchdog.sh
+# 评分器 = torchvision Faster R-CNN（非 Mask2Former，见 TODO Step 6 注：绝对值与论文不可直接对齐）
+config                png    Overall
+fp16                 2212    0.64563
+rtn_w8               2212    0.64822
+rtn_w4               2212    0.60961
+rtn_w3               2212    0.46627
+awq_w8               2212    0.64817
+awq_w4               2212    0.62981
+awq_w3               2212    0.56350
+mbq_block_w8         2212    0.63946
+mbq_block_w4         2212    0.63855
+mbq_block_w3         2212    0.58366
+mbq_scalar_w8        2212    0.63912
+mbq_scalar_w4        2212    0.62821
+mbq_scalar_w3        2212    0.57155
+mllmq_mae_w8         2212    0.65022
+mllmq_mae_w4         2212    0.62904
+mllmq_mae_w3         2212    0.58478
+mllmq_mse_w8         2212    0.63954
+mllmq_mse_w4         2212    0.62837
+mllmq_mse_w3         2212    0.55401

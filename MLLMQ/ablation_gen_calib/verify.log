@@ -1,0 +1,15 @@
+Python version is above 3.10, patching the collections module.
+/opt/conda/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.8.0) or chardet (6.0.0.post1)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/transformers/models/auto/image_processing_auto.py:517: FutureWarning: The image_processor_class argument is deprecated and will be removed in v4.42. Please use `slow_image_processor_class`, or `fast_image_processor_class` instead
+  warnings.warn(
+[1] n=128
+[1] token_len unique=[576] range=[0,16383]
+[2] understanding_images=128 gen_tf_images=128 overlap=0
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+Some kwargs in processor config are unused and will not have any effect: ignore_id, add_special_token, mask_prompt, num_image_tokens, sft_format, image_tag. 
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.73it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  4.31it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.96it/s]
+[3] sample 0: seq_len=597 labeled_tokens=576 loss=11.6606 finite=True
+[3] sample 1: seq_len=597 labeled_tokens=576 loss=11.7374 finite=True
+[4] recon_check.png size=(776, 1536) mode=RGB
+[4] identically-sized halves: left/right PSNR=22.76 dB (not identical, non-blank std=0.227)

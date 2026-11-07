@@ -1,0 +1,7 @@
+{
+  "seedbench_2_local_chunk1": {
+    "metric": "seed_all,none",
+    "score": 0.4767179487179487,
+    "file": "/nas3/kangjia/mllmq/output/fixed_ablation_20261103_understanding_5h_seed/mbq_scalar/seedbench_2_local_chunk1/mbq_scalar_w3a16/20261104_084406_mbq_scalar_w3_seedbench_2_local_chunk1_results.json"
+  }
+}

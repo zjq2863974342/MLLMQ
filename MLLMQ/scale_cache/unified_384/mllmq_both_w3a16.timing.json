@@ -1,0 +1,16 @@
+{
+  "method": "mllmq",
+  "model": "Janus-Pro-7B",
+  "w_bit": 3,
+  "a_bit": 16,
+  "n_samples": 384,
+  "times": {
+    "model_load_s": 4.0,
+    "data_prep_s": 64.84,
+    "grad_collection_s": 109.31,
+    "scale_search_s": 1333.01,
+    "scale_apply_s": 24.28,
+    "total_s": 1559.82
+  },
+  "timestamp": "2026-11-03T18:17:42"
+}
