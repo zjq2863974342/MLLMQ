@@ -197,7 +197,7 @@
 | HPSv2 weights | `checkpoints/hpsv2` | 1.9G | Apache-2.0 | 需重下 |
 | ImageReward weights | `checkpoints/imagereward` | 1.7G | Apache-2.0 | 需重下 |
 | PickScore weights | `checkpoints/pickscore_v1` | 3.7G | MIT | 需重下 |
-| lmms-eval | `MBQ/3rdparty/lmms-eval` | — | 需核实 | 理解评测依赖 |
+| lmms-eval | `third_party/lmms-eval` | 1,251 | 需核实 | 理解评测依赖（原 `MBQ/3rdparty/lmms-eval`，含本地 patch） |
 | InternVL2 | `checkpoints/InternVL2-8B` | — | 需核实 | 只用于旧对照，非 Janus 主结果 |
 
 - COCO 数据：`data/coco` 39G；`data/benchmarks_local` 204G（含 MMMU/SEED/TextVQA 等本地缓存）——**不要整包迁移**，按需重下。

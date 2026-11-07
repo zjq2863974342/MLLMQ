@@ -1,0 +1,59 @@
+# MLLMQ 复现环境依赖（从已验证环境导出，2026-09-19）
+#
+# 用法（在 conda 环境 python 3.10 + CUDA 12.x 下）：
+#   1) 先装 PyTorch（cu128，与已验证镜像一致；必须走 PyTorch 专用 index，
+#      普通 index 找不到 +cu128 的 local-version specifier）：
+#      pip install torch==2.10.0 torchvision==0.25.0 torchaudio==2.10.0 \
+#          --index-url https://download.pytorch.org/whl/cu128
+#   2) 再装其余依赖：
+#      pip install -r requirements.txt
+#   3) lmms-eval 不走 PyPI，必须从 MBQ/3rdparty 下 editable 安装（见 README §2.6）：
+#      cd /nas3/kangjia/mllmq/MBQ/3rdparty/lmms-eval && pip install -e .
+#   4) 模型下载（可选，国内建议 ModelScope）：pip install modelscope
+#
+# 说明：
+#   - 版本均来自实际运行环境的 `pip show`，勿随意升级（transformers 见下方注释）
+#   - torch 三件套不放本文件 —— 必须用上面的 PyTorch 专用 index 单独装
+#   - 已从列表剔除 aistudio / anaconda 平台自带包与 editable 源码包（lmms_eval、qmllm）
+
+# ---- 核心框架（transformers，README §2.4）----
+transformers==4.45.0        # 仅 InternVL2-8B 复现；加 Qwen2.5-VL-7B 需 >=4.46（推荐 4.57.6）
+tokenizers==0.20.3
+safetensors==0.7.0
+
+# ---- 数据 / 加载（README §2.5）----
+accelerate==1.15.0
+datasets==2.16.1
+hf_transfer==0.1.9
+huggingface_hub==0.36.2
+sentencepiece==0.1.99
+
+# ---- 视觉 / 图像预处理 ----
+timm==1.0.29
+einops==0.8.2
+decord==0.6.0
+av==17.1.0
+imageio==2.37.4
+opencv-python-headless==4.11.0.86
+pillow==10.4.0
+qwen-vl-utils==0.0.14
+
+# ---- 评估 / 指标 ----
+sacrebleu==2.6.0
+evaluate==0.4.6
+peft==0.20.0
+
+# ---- 工具 / 通用 ----
+ftfy==6.3.1
+numexpr==2.14.1
+pycocotools==2.0.11
+matplotlib==3.10.1
+jsonschema==4.23.0
+markdown-it-py==2.2.0
+scipy==1.15.3
+regex==2026.4.4
+requests==2.32.3
+tqdm==4.67.1
+pyyaml==6.0.2
+packaging==24.2
+protobuf==3.20.0

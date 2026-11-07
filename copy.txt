@@ -1,0 +1,101 @@
+# ============================================================================
+# 副机任务队列（2026-11-07 21:00 更新）— 8 GPU 全局分工（副机 4 卡）
+#
+# 全局方案：8 张卡 = 8 个 W4A8 生图 tag + 8 个 W3A16 评分 tag，每卡 1+1。
+#   W4A8 生图满 2400 后，同一张卡再评 W4A8（所以每卡最终会评 2 个 tag）。
+#
+# 主机 4 卡（本地执行，不在本文件）：
+#   GPU0 rtn | GPU1 mllmq_channel_only | GPU2 mllmq_t2i_img | GPU3 awq
+# 副机 4 卡（本文件）：
+#   GPU0 mbq_scalar | GPU1 mllmq_t2i_text | GPU2 mllmq_both | GPU3 mllmq_gen_only
+#
+# 评分范围（每个 tag 8 类，每类 300 张）：
+#   color/shape/texture (BLIP) + non_spatial (CLIP)
+#   + spatial/3d_spatial/numeracy (UniDet) + complex (3-in-1)
+#
+# 输出：
+#   生图：output/janus-pro-7b/t2i_compbench_current/w4a8/<tag>/t2i_compbench/
+#   评分：output/janus-pro-7b/t2i_compbench_current_scores/<w3a16|w4a8>/<tag>/<cat>.json
+#   日志：output/logs/t2i_compbench_current/remote_lane_<tag>.log
+#         output/logs/t2i_compbench_current/score_<width>_<tag>_<cat>.log
+#
+# 禁止：
+#   - ❌ 不要跑主机负责的 4 个生图 tag（rtn / channel_only / t2i_img / awq）
+#   - ❌ 不要用 legacy `output/janus-pro-7b/t2i_compbench/` 或旧 score 目录
+#   - ❌ 不要在没有 REMOTE_GEN_GO 哨兵时启动生图（会与主机双跑）
+#   - ❌ 不要 kill 主机任务；不修改实验脚本
+# ============================================================================
+
+## 0. 前置（必须由主机完成；副机只等哨兵）
+
+主机上要迁到副机的 4 个生图 tag：
+  mbq_scalar, mllmq_t2i_text, mllmq_both, mllmq_gen_only
+
+主机需要：
+  1. 停掉这 4 个 tag 的 `eval_generate_quant.py` 进程（每个 lane 保留另一个 tag 继续跑）；
+  2. 防止 local4 scheduler 因缺图重启 driver / lane queue（否则会把 4 个 tag 重新拉起来）；
+     - 可临时停 local4 scheduler，或加 remote-owned 跳过规则；
+  3. 确认主机上这 4 个 tag 无 `eval_generate_quant.py` 进程后，创建哨兵：
+       touch /nas3/kangjia/mllmq/queue/REMOTE_GEN_GO
+
+⚠️ 哨兵不存在时，副机 lane 只跑 W3A16 评分，不会启动生图。
+
+## 1. 启动副机 4 条 lane
+
+```bash
+cd /nas3/kangjia/mllmq
+mkdir -p output/logs/t2i_compbench_current
+
+for pair in "mbq_scalar 0" "mllmq_t2i_text 1" "mllmq_both 2" "mllmq_gen_only 3"; do
+  set -- $pair
+  TAG=$1 GPU=$2 GATE_FILE=/nas3/kangjia/mllmq/queue/REMOTE_GEN_GO \
+    setsid nohup bash queue/t2i_score_plus_gen_one.sh \
+    > "output/logs/t2i_compbench_current/remote_lane_$1.log" 2>&1 < /dev/null &
+  echo "launched $1 on GPU$2"
+done
+```
+
+每条 lane 的行为：
+  1. 立即在对应 GPU 上评 W3A16 的 8 个类别；
+  2. 等 `queue/REMOTE_GEN_GO`；
+  3. 哨兵出现后继续 W4A8 生图（skip-existing，从当前 PNG 数续跑）；
+  4. 生图到 2400 后，同一张卡评 W4A8 的 8 个类别。
+所有评分 skip-existing，可重复执行。
+
+## 2. 检查
+
+```bash
+cd /nas3/kangjia/mllmq
+for t in mbq_scalar mllmq_t2i_text mllmq_both mllmq_gen_only; do
+  echo -n "$t gen="
+  find "output/janus-pro-7b/t2i_compbench_current/w4a8/$t/t2i_compbench" -name '*.png' 2>/dev/null | wc -l
+  echo -n "  w3score="
+  ls "output/janus-pro-7b/t2i_compbench_current_scores/w3a16/$t"/*.json 2>/dev/null | wc -l
+  echo -n "  w4score="
+  ls "output/janus-pro-7b/t2i_compbench_current_scores/w4a8/$t"/*.json 2>/dev/null | wc -l
+done
+
+# 哨兵是否存在
+ls -la /nas3/kangjia/mllmq/queue/REMOTE_GEN_GO 2>/dev/null || echo "NO GATE"
+
+# 错误扫描
+grep -RniE 'Traceback|CUDA out of memory|Killed|FAIL' \
+  output/logs/t2i_compbench_current/remote_lane_*.log \
+  output/logs/t2i_compbench_current/score_*.log 2>/dev/null | tail -20
+```
+
+## 3. 预计
+
+- W3A16 评分：每 tag 8 类，约 20–30 min；4 卡并行，约 **0.5–1h**（21:30–22:00 完成）。
+- W4A8 生图（等哨兵后）：剩余 mbq_scalar 1429、t2i_text 1253、both 1672、gen_only 1574 张/卡。
+  历史实测：单进程/卡 ~13.6 s/图；当前 2 进程/卡聚合 ~34 s/图。1 生图 + 1 评分按 **15–34 s/图** 估。
+  最长 lane（both 1672 张）预计 **6–16h**，即 **11-08 03:30–13:30** 生图完成（中位约 08:00）。
+- W4A8 评分：每 tag 约 20–30 min，生图完成后紧接着评；全部预计 **11-08 14:00 前** 完成。
+- 若主机没及时给哨兵，副机评分完成约 21:30 后空等，不影响已完成部分。
+
+## 4. 结束汇报
+
+- 每个 tag 的 gen PNG 数（目标 2400）；
+- W3A16 / W4A8 各 8 个类别 JSON 是否齐（8/8）；
+- 失败类别、日志尾部、OOM/Traceback；
+- 实际完成时间。

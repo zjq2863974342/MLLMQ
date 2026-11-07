@@ -5,6 +5,7 @@
 > 用途：只记录**网上搜不到、只有本机能探查到**的信息：权威结果、口径、路径、配置、third_party、机器坑。
 > 标记约定：`[权威]` 当前结论可用；`[过时]` 不可作为当前结论；`[进行中]` 未定稿；`[禁写]` 不得写进论文。
 > 数据权威层级：**原始结果文件 > `output/score.json` > `dialog.md`/`TODO.md` > `paper_outline.md`**。`score.json` 的 `understanding`/`generation`/`priority_experiments_2026_11` 仍是 2026-11-02 快照；`fixed_ablation_20261103` 是 2026-11-07 新补的当前口径。
+> **迁移约束：本机其他文件暂时无法迁移。** 方法/配置、scale cache、校准数据、third_party、评分器 quirks、主机坑、论文主线与写作红线、未完成实验，见 `TOKNOW_patch.md`；本文件与 patch 是唯一必读迁移材料。
 
 ---
 
